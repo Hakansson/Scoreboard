@@ -1,0 +1,57 @@
+div.target {
+	width: 500px;
+    height: 200px;
+	font-family: sans-serif;
+	font-size: 1.2em;	/* 14px/16=0.875em */
+	border-radius: 15px;
+    border: 2px solid blue;
+	padding: 10px;
+    box-sizing: border-box;
+	background-color: white;
+	overflow: hidden;
+    text-overflow: ellipsis;
+	box-shadow: 2px 2px 3px darkblue, 4px 4px 6px blue;
+}
+
+.target:hover{
+	 text-overflow: inherit;
+    overflow: visible;
+}
+
+div.activities{
+	width: auto;
+    height: 200px;
+}
+
+div.goal{
+	width: 300px;
+    height: 200px;
+	position:relative;
+}
+div.temp{
+	width: 30px;
+    height: 60px;
+	border-radius: 8px;
+    border: 3px solid white;
+    box-sizing: border-box;
+	background-color: white;
+	box-shadow: 2px 2px 3px darkblue;
+	position:absolute; bottom:8;
+	float:right;
+}
+SPAN.plupp{
+	width: 16px;
+    height: 16px;
+	border-radius: 5px;
+    border: 2px solid white;
+    box-sizing: border-box;
+	background-color: white;
+	box-shadow: 2px 2px 3px darkblue;
+}
+TD.square{
+	background-color: darkblue;
+	color: white;
+	font-family: sans-serif;
+	font-size: 1.2em;	/* 14px/16=0.875em */
+	text-align: center;
+}
